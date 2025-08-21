@@ -17,10 +17,15 @@
 
 
 👋 Hey there! I'm **Syed Khizer** — a passionate learner and full-stack enthusiast.  
+
 🎓 Engineering student on a journey to master **Full Stack Web Development**.  
-💻 Currently building my skills in frontend & backend, with plans to dive into **Data Science** and **Machine Learning** in the future. 
+
+💻 Currently building my skills in frontend & backend, with plans to dive into **Data Science** and **Machine Learning** in the future.
+
 🌟 Driven by curiosity, creativity, and the ambition to turn ideas into impactful products.  
+
 📬 Reach out: **syedkhizer2004@gmail.com**  
+
   
 
 <h3 align="center"> ✦✦✦ Passionate Full-Stack Developer & Future Data Scientist ✦✦✦ </h3>
