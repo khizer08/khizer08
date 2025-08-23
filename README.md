@@ -59,7 +59,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Khizer08&theme=highcontrast&show_icons=true&count_private=true" alt="GitHub Stats" />
 </p>
 
-<p>
+<p align="center">
   <img align="center" src="https://github-readme-streak-stats-eight.vercel.app/?user=khizer08&theme=highcontrast&hide_border=false" alt="Tanveer Pasha S's GitHub streak stats" />
 </p>
 
