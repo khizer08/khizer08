@@ -60,8 +60,9 @@
 </p>
 
 <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=Khizer08&theme=highcontrast&hide_border=false&include_all_commits=true" />
+  <img src="https://leetcard.jacoblin.cool/khizer08?theme=dark&font=Baloo&ext=heatmap" alt="LeetCode Stats" />
 </p>
+
 
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/khizer08?theme=dark&font=Baloo&ext=heatmap" />
