@@ -64,9 +64,10 @@
 </p>
 
 <p align="center">
-  <img src="![LeetCode Stats](https://leetcard.jacoblin.cool/your-username?theme=dark&font=Baloo&ext=heatmap)
-"/>
+  <img src="https://leetcard.jacoblin.cool/SyedKhizer?theme=dark&font=Baloo&ext=heatmap" />
 </p>
+
+
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khizer08&theme=highcontrast&layout=compact" alt="Top Languages" />
