@@ -59,15 +59,9 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Khizer08&theme=highcontrast&show_icons=true&count_private=true" alt="GitHub Stats" />
 </p>
 
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/khizer08?theme=dark&font=Baloo&ext=heatmap" alt="LeetCode Stats" />
+<p>
+  <img align="center" src="https://github-readme-streak-stats-eight.vercel.app/?user=khizer08&theme=highcontrast&hide_border=false" alt="Tanveer Pasha S's GitHub streak stats" />
 </p>
-
-
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/khizer08?theme=dark&font=Baloo&ext=heatmap" />
-</p>
-
 
 
 <p align="center">
