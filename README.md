@@ -64,7 +64,7 @@
 </p>
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/SyedKhizer?theme=dark&font=Baloo&ext=heatmap" />
+  <img src="https://leetcard.jacoblin.cool/khizer08?theme=dark&font=Baloo&ext=heatmap" />
 </p>
 
 
