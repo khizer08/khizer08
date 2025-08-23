@@ -63,7 +63,6 @@
     <img src="https://github-readme-streak-stats.herokuapp.com?user=Khizer08&theme=highcontrast&hide_border=false&include_all_commits=true" />
 </p>
 
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khizer08&theme=highcontrast&layout=compact" alt="Top Languages" />
 </p>
