@@ -28,7 +28,7 @@
 
   
 
-<h3 align="center"> ✦✦✦ Passionate Full-Stack Developer & Future Data Scientist ✦✦✦ </h3>
+<h3 align="center"> ✦✦✦ Passionate Full-Stack Developer & ML Enthusiast ✦✦✦ </h3>
 
 ---
 
