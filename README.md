@@ -9,7 +9,7 @@
 
 <p align="center">
   <!-- Typing animation -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&color=00C4FF&center=true&vCenter=true&width=700&lines=Hi+👋,+I'm+Syed+Khizer;Aspiring+Full+Stack+Developer;Future+Data+Scientist+%26+ML+Engineer;Always+Learning,+Always+Building!" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&color=00C4FF&center=true&vCenter=true&width=700&lines=Hi+👋,+I'm+Syed+Khizer;Aspiring+Full+Stack+Developer;+ML+Enthusiast;+Always+Learning,+Always+Building!" />
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
