@@ -63,7 +63,7 @@
 </p>
 
 <p align="center">
-  <img align="center" src="https://github-readme-streak-stats-eight.vercel.app/?user=khizer08&theme=highcontrast&hide_border=false" alt="Tanveer Pasha S's GitHub streak stats" />
+<img src="https://streak-stats.demolab.com?user=Khizer08&theme=highcontrast&hide_border=false" />
 </p>
 
 
