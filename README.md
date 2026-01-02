@@ -3,7 +3,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=khizer08&label=Profile%20views&color=0e75b6&style=flat)
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="420" />
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="380" />
 </p>
 
 
