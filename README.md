@@ -40,6 +40,7 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
@@ -57,21 +58,15 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 
 ---
 
-## 📊 GitHub Stats (Working & Stable)
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=khizer08&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.vercel.app/?user=khizer08&theme=tokyonight&hide_border=true" />
-</p>
-
-
-<p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=khizer08&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
-
 
 ---
 
@@ -80,8 +75,6 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 - ✅ Advanced MERN Stack
 - ✅ Backend Architecture & APIs
 - 🔄 Machine Learning fundamentals
-- 🔜 Real-world ML integration in web apps
-
 ---
 
 ⭐ *Always learning. Always building. Always improving.*
