@@ -3,7 +3,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=khizer08&label=Profile%20views&color=0e75b6&style=flat)
 
 <p align="center">
-  <img alt="matrix" height="250" src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif"/>
+  <img alt="terminal-typing" height="250" src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif"/>
 </p>
 
 <p align="center">
