@@ -15,7 +15,7 @@
 ---
 
 <p align="center">
-  👋 <strong>Hi, I'm Syed Khizer</strong>
+  👋 <h3>Hi, I'm Syed Khizer</h3>
 </p>
 
 🎓 Engineering Student | 💻 Full-Stack Developer | 🤖 ML Enthusiast  
