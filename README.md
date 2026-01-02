@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00C4FF&center=true&vCenter=true&width=750&lines=Hi,+I'm+Syed+Khizer;Full-Stack+Web+Developer;ML+and+Data+Science+Enthusiast;Building+Scalable+Web+Products" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00C4FF&center=true&vCenter=true&width=750&lines=Full-Stack+Web+Developer;ML+and+Data+Science+Enthusiast;Building+Scalable+Web+Products" />
 </p>
 
 
@@ -61,7 +61,7 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 
-**DevOps & version control**
+**DevOps & Version Control**
 
 ![Docker](https://img.shields.io/badge/Docker-1D63ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
