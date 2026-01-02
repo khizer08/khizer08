@@ -17,7 +17,9 @@
 <h1 align="center">👋 Hi, I'm <strong>Syed Khizer</strong></h1>
 
 
+<h3 align="center">
 🎓 Engineering Student | 💻 Full-Stack Developer | 🤖 ML Enthusiast  
+</h3>
 
 I’m passionate about **building scalable web applications**, exploring **Machine Learning**, and turning ideas into real-world products.
 
