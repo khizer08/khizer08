@@ -7,8 +7,7 @@
 </p>
 
 <p align="center">
-  <!-- Typing animation: switched to an actively maintained 읽/typing SVG host -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&color=00C4FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B,+I'm+Syed+Khizer;Aspiring+Full+Stack+Developer;+ML+Enthusiast;+Always+Learning,+Always+Building!" />
+  <img alt="neon-code" height="250" src="https://media.giphy.com/media/26tOZ42Mg6pbTUPHW/giphy.gif"/>
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
