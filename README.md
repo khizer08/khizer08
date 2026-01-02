@@ -1,20 +1,18 @@
 # 💫 About Me:-
 
-![Profile Views](https://komarev.com/ghpvc/?username=Khizer08&label=Profile%20views&color=0e75b6&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=khizer08&label=Profile%20views&color=0e75b6&style=flat)
 
 <p align="center">
-  <!-- Custom coding gif/banner (replace with your own later if you want) -->
-  <img alt="coding" height="250" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/rocket.gif"/>
+  <!-- Coding gif/banner (replaced with a widely-hosted GIF) -->
+  <img alt="coding" height="250" src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif"/>
 </p>
 
 <p align="center">
-  <!-- Typing animation -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&color=00C4FF&center=true&vCenter=true&width=700&lines=Hi+👋,+I'm+Syed+Khizer;Aspiring+Full+Stack+Developer;+ML+Enthusiast;+Always+Learning,+Always+Building!" />
+  <!-- Typing animation: switched to an actively maintained 읽/typing SVG host -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&color=00C4FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B,+I'm+Syed+Khizer;Aspiring+Full+Stack+Developer;+ML+Enthusiast;+Always+Learning,+Always+Building!" />
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
-
-
 
 👋 Hey there! I'm **Syed Khizer** — a passionate learner and full-stack enthusiast.  
 
@@ -61,20 +59,17 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Khizer08&theme=highcontrast&show_icons=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=khizer08&theme=highcontrast&show_icons=true&count_private=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=Khizer08&theme=highcontrast&hide_border=false" />
+  <!-- Streak/stats: switched to demolab host as an alternative -->
+  <img src="https://streak-stats.demolab.com?user=khizer08&theme=highcontrast&hide_border=false" alt="GitHub Streak" />
 </p>
 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khizer08&theme=highcontrast&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khizer08&theme=highcontrast&layout=compact" alt="Top Languages" />
 </p>
 
 ---
-
-
-
-
