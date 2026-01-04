@@ -92,8 +92,6 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 
 ## 🚀 Current Focus
 
-- ✅ Advanced MERN Stack
-- ✅ Backend Architecture & APIs
 - 🔄 Machine Learning fundamentals
 ---
 
