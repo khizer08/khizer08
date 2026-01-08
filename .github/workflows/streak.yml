@@ -1,0 +1,28 @@
+name: Update GitHub Streak
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak
+        uses: DenverCoder1/github-readme-streak-stats@master
+        with:
+          user: khizer08
+          theme: tokyonight
+          hide_border: true
+          output: streak.svg
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add streak.svg
+          git commit -m "Update streak" || exit 0
+          git push
