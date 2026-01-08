@@ -88,8 +88,9 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 </p>
 
 <p align="center">
-![GitHub Streak](./streak.svg)
+  <img src="./streak.svg" alt="GitHub Streak" />
 </p>
+
 
 
 
