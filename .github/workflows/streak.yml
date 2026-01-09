@@ -5,26 +5,32 @@ name: Update GitHub Streak
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"   # runs daily
+  workflow_dispatch:      # manual run button
 
 jobs:
   streak:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Download streak SVG
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download GitHub Streak SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -L \
+          curl -fL \
             -H "Accept: image/svg+xml" \
-            "https://streak-stats.demolab.com?user=khizer08&theme=tokyonight&hide_border=true&cache_seconds=86400" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "User-Agent: GitHub-Actions" \
+            "https://streak-stats.demolab.com/svg?user=khizer08&theme=tokyonight&hide_border=true" \
             -o streak.svg
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add streak.svg
-          git commit -m "Update streak" || exit 0
+          git commit -m "Update GitHub streak" || exit 0
           git push
