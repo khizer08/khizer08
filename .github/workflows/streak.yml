@@ -23,7 +23,7 @@ jobs:
             --retry-delay 5 \
             -H "Accept: image/svg+xml" \
             -H "User-Agent: GitHub-Actions" \
-            "https://streak-stats.demolab.com/svg?user=khizer08&theme=tokyonight&hide_border=true" \
+            "https://streak-stats.demolab.com?user=khizer08&theme=tokyonight&hide_border=true" \
             -o streak.svg
 
       - name: Commit and push changes
