@@ -5,8 +5,8 @@ name: Update GitHub Streak
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily
-  workflow_dispatch:      # manual run button
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   streak:
@@ -17,12 +17,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Download GitHub Streak SVG
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -fL \
             -H "Accept: image/svg+xml" \
-            -H "Authorization: Bearer $GH_TOKEN" \
             -H "User-Agent: GitHub-Actions" \
             "https://streak-stats.demolab.com/svg?user=khizer08&theme=tokyonight&hide_border=true" \
             -o streak.svg
