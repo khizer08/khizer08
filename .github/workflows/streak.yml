@@ -16,7 +16,10 @@ jobs:
 
       - name: Download streak SVG
         run: |
-          curl -L "https://streak-stats.demolab.com?user=khizer08&theme=tokyonight&hide_border=true" -o streak.svg
+          curl -L \
+            -H "Accept: image/svg+xml" \
+            "https://streak-stats.demolab.com?user=khizer08&theme=tokyonight&hide_border=true&cache_seconds=86400" \
+            -o streak.svg
 
       - name: Commit changes
         run: |
