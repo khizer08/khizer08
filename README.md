@@ -88,17 +88,8 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 </p>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/khizer08/khizer08/main/streak.svg"
-    alt="GitHub Streak"
-  />
+  <img src="https://raw.githubusercontent.com/khizer08/khizer08/main/streak.svg" alt="GitHub Streak" />
 </p>
-
-
-
-
-
-
 
 
 ---
