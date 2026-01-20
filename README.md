@@ -91,12 +91,4 @@ I’m passionate about **building scalable web applications**, exploring **Machi
   <img src="https://raw.githubusercontent.com/khizer08/khizer08/main/streak.svg" alt="GitHub Streak" />
 </p>
 
-
----
-
-## 🚀 Current Focus
-
-- 🔄 Machine Learning fundamentals
----
-
 ⭐ *Always learning. Always building. Always improving.*
