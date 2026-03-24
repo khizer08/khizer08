@@ -14,8 +14,6 @@
 </p>
 
 
----
-
 
 <h3 align="center">
 🎓 Engineering Student | 💻 Full-Stack Developer | 🤖 ML Enthusiast  
