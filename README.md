@@ -32,7 +32,6 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syedkhizer08/)
 
----
 
 ## 💻 Tech Stack
 
