@@ -20,7 +20,7 @@
 
 I’m passionate about **building scalable web applications**, exploring **Machine Learning**, and turning ideas into real-world products.
 
-- 🌐 Focused on **MERN Stack**
+- 🌐 Focused on **MERN Stack Development**
 - 📊 Future goal: **Data Science & Machine Learning**
 - 🧠 Strong foundation in **CS & Software Engineering**
 
