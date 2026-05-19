@@ -16,9 +16,6 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=khizer08&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" />
 </p>
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=khizer08&icon=6&color=12" />
-</p>
 
 <h3 align="center">
 🎓 Engineering Student | 💻 Full-Stack Developer | 🤖 ML Enthusiast  
