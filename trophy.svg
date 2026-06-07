@@ -1,5 +1,60 @@
-Payment required
 
-DEPLOYMENT_DISABLED
+<svg width="900" height="250" xmlns="http://www.w3.org/2000/svg">
 
-iad1::ld62j-1780845367405-ccb8299ea104
+<style>
+.bg {
+    fill:#1a1b26;
+}
+
+.card {
+    fill:#24283b;
+    stroke:#414868;
+    stroke-width:2;
+    rx:12;
+}
+
+.title {
+    fill:#7aa2f7;
+    font-size:28px;
+    font-family:Arial;
+    font-weight:bold;
+}
+
+.label {
+    fill:#73daca;
+    font-size:18px;
+    font-family:Arial;
+}
+
+.value {
+    fill:#bb9af7;
+    font-size:36px;
+    font-family:Arial;
+    font-weight:bold;
+}
+</style>
+
+<rect width="900" height="250" class="bg"/>
+
+<text x="450" y="40" text-anchor="middle" class="title">
+🏆 GitHub Trophies
+</text>
+
+<rect x="20" y="70" width="190" height="140" class="card"/>
+<rect x="240" y="70" width="190" height="140" class="card"/>
+<rect x="460" y="70" width="190" height="140" class="card"/>
+<rect x="680" y="70" width="190" height="140" class="card"/>
+
+<text x="115" y="120" text-anchor="middle" class="value">23</text>
+<text x="115" y="160" text-anchor="middle" class="label">Repositories</text>
+
+<text x="335" y="120" text-anchor="middle" class="value">8</text>
+<text x="335" y="160" text-anchor="middle" class="label">Followers</text>
+
+<text x="555" y="120" text-anchor="middle" class="value">10</text>
+<text x="555" y="160" text-anchor="middle" class="label">Following</text>
+
+<text x="775" y="120" text-anchor="middle" class="value">ML</text>
+<text x="775" y="160" text-anchor="middle" class="label">AI Enthusiast</text>
+
+</svg>
