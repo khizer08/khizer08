@@ -8,10 +8,25 @@ user = requests.get(
 
 repos = user["public_repos"]
 followers = user["followers"]
-following = user["following"]
+
+# Total Stars
+stars = 0
+
+repos_data = requests.get(
+    f"https://api.github.com/users/{USERNAME}/repos?per_page=100"
+).json()
+
+for repo in repos_data:
+    stars += repo.get("stargazers_count", 0)
+
+# Temporary values
+# Later we can automate these too
+streak = 108
+contributions = 1027
+active_days = 243
 
 svg = f"""
-<svg width="900" height="250" xmlns="http://www.w3.org/2000/svg">
+<svg width="1120" height="280" xmlns="http://www.w3.org/2000/svg">
 
 <style>
 .bg {{
@@ -22,12 +37,11 @@ svg = f"""
     fill:#24283b;
     stroke:#414868;
     stroke-width:2;
-    rx:12;
 }}
 
 .title {{
     fill:#7aa2f7;
-    font-size:28px;
+    font-size:30px;
     font-family:Arial;
     font-weight:bold;
 }}
@@ -40,37 +54,60 @@ svg = f"""
 
 .value {{
     fill:#bb9af7;
-    font-size:36px;
+    font-size:38px;
     font-family:Arial;
     font-weight:bold;
 }}
+
+.line {{
+    stroke:#414868;
+    stroke-width:2;
+}}
 </style>
 
-<rect width="900" height="250" class="bg"/>
+<rect width="1120" height="280" class="bg"/>
 
-<text x="450" y="40" text-anchor="middle" class="title">
+<line x1="120" y1="40" x2="300" y2="40" class="line"/>
+<line x1="820" y1="40" x2="1000" y2="40" class="line"/>
+
+<text x="560" y="52" text-anchor="middle" class="title">
 🏆 GitHub Trophies
 </text>
 
-<rect x="20" y="70" width="190" height="140" class="card"/>
-<rect x="240" y="70" width="190" height="140" class="card"/>
-<rect x="460" y="70" width="190" height="140" class="card"/>
-<rect x="680" y="70" width="190" height="140" class="card"/>
+<!-- Stars -->
+<rect x="20" y="90" width="170" height="140" rx="12" class="card"/>
+<text x="105" y="145" text-anchor="middle" class="value">{stars}</text>
+<text x="105" y="185" text-anchor="middle" class="label">⭐ Stars</text>
 
-<text x="115" y="120" text-anchor="middle" class="value">{repos}</text>
-<text x="115" y="160" text-anchor="middle" class="label">Repositories</text>
+<!-- Repositories -->
+<rect x="200" y="90" width="170" height="140" rx="12" class="card"/>
+<text x="285" y="145" text-anchor="middle" class="value">{repos}</text>
+<text x="285" y="185" text-anchor="middle" class="label">🚀 Repositories</text>
 
-<text x="335" y="120" text-anchor="middle" class="value">{followers}</text>
-<text x="335" y="160" text-anchor="middle" class="label">Followers</text>
+<!-- Followers -->
+<rect x="380" y="90" width="170" height="140" rx="12" class="card"/>
+<text x="465" y="145" text-anchor="middle" class="value">{followers}</text>
+<text x="465" y="185" text-anchor="middle" class="label">👥 Followers</text>
 
-<text x="555" y="120" text-anchor="middle" class="value">{following}</text>
-<text x="555" y="160" text-anchor="middle" class="label">Following</text>
+<!-- Streak -->
+<rect x="560" y="90" width="170" height="140" rx="12" class="card"/>
+<text x="645" y="145" text-anchor="middle" class="value">{streak}</text>
+<text x="645" y="185" text-anchor="middle" class="label">🔥 Streak</text>
 
-<text x="775" y="120" text-anchor="middle" class="value">ML</text>
-<text x="775" y="160" text-anchor="middle" class="label">AI Enthusiast</text>
+<!-- Contributions -->
+<rect x="740" y="90" width="170" height="140" rx="12" class="card"/>
+<text x="825" y="145" text-anchor="middle" class="value">{contributions}</text>
+<text x="825" y="185" text-anchor="middle" class="label">📈 Contributions</text>
+
+<!-- Active Days -->
+<rect x="920" y="90" width="170" height="140" rx="12" class="card"/>
+<text x="1005" y="145" text-anchor="middle" class="value">{active_days}</text>
+<text x="1005" y="185" text-anchor="middle" class="label">📅 Active Days</text>
 
 </svg>
 """
 
 with open("trophy.svg", "w", encoding="utf-8") as f:
     f.write(svg)
+
+print("trophy.svg generated successfully")
