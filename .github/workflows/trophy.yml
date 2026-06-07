@@ -23,10 +23,12 @@ jobs:
             --retry-delay 5 \
             -H "Accept: image/svg+xml" \
             -H "User-Agent: GitHub-Actions" \
-            "https://github-profile-trophy.vercel.app/?username=khizer08&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" \
+            "https://github-profile-trophy.vercel.app/?username=khizer08&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&row=1&column=7" \
             -o trophy.svg
 
-      - name: Commit and push
+          test -s trophy.svg
+
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
