@@ -20,14 +20,14 @@
 
 .title {
     fill:#7aa2f7;
-    font-size:36px;
+    font-size:32px;
     font-family:Arial;
     font-weight:bold;
 }
 
 .value {
     fill:#bb9af7;
-    font-size:42px;
+    font-size:38px;
     font-family:Arial;
     font-weight:bold;
 }
@@ -38,74 +38,62 @@
     font-family:Arial;
 }
 
-.icon {
-    font-size:42px;
+.trophy {
+    fill:#fbbf24;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:bold;
 }
 </style>
 
-<!-- Background -->
 <rect width="1200" height="320" class="bg"/>
 
-<!-- Outer Border -->
 <rect x="10" y="10"
       width="1180"
       height="300"
       rx="20"
       class="outer"/>
 
-<!-- Title Lines -->
-<line x1="170" y1="50"
-      x2="350" y2="50"
-      stroke="#bb9af7"
-      stroke-width="2"/>
-
-<line x1="850" y1="50"
-      x2="1030" y2="50"
-      stroke="#bb9af7"
-      stroke-width="2"/>
-
-<!-- Trophy -->
-<text x="600"
-      y="58"
+<text x="600" y="50"
       text-anchor="middle"
       class="title">
-🏆 GitHub Trophies
+GitHub Trophies
 </text>
 
-<!-- Card 1 -->
+<!-- Stars -->
 <rect x="30" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="115" y="140" text-anchor="middle" class="icon">⭐</text>
-<text x="115" y="200" text-anchor="middle" class="value">1</text>
-<text x="115" y="235" text-anchor="middle" class="label">Stars</text>
+<text x="115" y="125" text-anchor="middle" class="trophy">1 TROPHY</text>
+<text x="115" y="190" text-anchor="middle" class="value">1</text>
+<text x="115" y="230" text-anchor="middle" class="label">Stars</text>
 
-<!-- Card 2 -->
+<!-- Repositories -->
 <rect x="220" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="305" y="140" text-anchor="middle" class="icon">🚀</text>
-<text x="305" y="200" text-anchor="middle" class="value">23</text>
-<text x="305" y="235" text-anchor="middle" class="label">Repositories</text>
+<text x="305" y="125" text-anchor="middle" class="trophy">3 TROPHIES</text>
+<text x="305" y="190" text-anchor="middle" class="value">23</text>
+<text x="305" y="230" text-anchor="middle" class="label">Repositories</text>
 
-<!-- Card 3 -->
+<!-- Followers -->
 <rect x="410" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="495" y="140" text-anchor="middle" class="icon">👥</text>
-<text x="495" y="200" text-anchor="middle" class="value">8</text>
-<text x="495" y="235" text-anchor="middle" class="label">Followers</text>
+<text x="495" y="125" text-anchor="middle" class="trophy">1 TROPHY</text>
+<text x="495" y="190" text-anchor="middle" class="value">8</text>
+<text x="495" y="230" text-anchor="middle" class="label">Followers</text>
 
-<!-- Card 4 -->
+<!-- Streak -->
 <rect x="600" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="685" y="140" text-anchor="middle" class="icon">🔥</text>
-<text x="685" y="200" text-anchor="middle" class="value">108</text>
-<text x="685" y="235" text-anchor="middle" class="label">Streak</text>
+<text x="685" y="125" text-anchor="middle" class="trophy">3 TROPHIES</text>
+<text x="685" y="190" text-anchor="middle" class="value">108</text>
+<text x="685" y="230" text-anchor="middle" class="label">Streak</text>
 
-<!-- Card 5 -->
+<!-- Contributions -->
 <rect x="790" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="875" y="140" text-anchor="middle" class="icon">📈</text>
-<text x="875" y="200" text-anchor="middle" class="value">1027</text>
-<text x="875" y="235" text-anchor="middle" class="label">Contributions</text>
+<text x="875" y="125" text-anchor="middle" class="trophy">3 TROPHIES</text>
+<text x="875" y="190" text-anchor="middle" class="value">1027</text>
+<text x="875" y="230" text-anchor="middle" class="label">Contributions</text>
 
-<!-- Card 6 -->
+<!-- Active Days -->
 <rect x="980" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="1065" y="140" text-anchor="middle" class="icon">📅</text>
-<text x="1065" y="200" text-anchor="middle" class="value">243</text>
-<text x="1065" y="235" text-anchor="middle" class="label">Active Days</text>
+<text x="1065" y="125" text-anchor="middle" class="trophy">3 TROPHIES</text>
+<text x="1065" y="190" text-anchor="middle" class="value">243</text>
+<text x="1065" y="230" text-anchor="middle" class="label">Active Days</text>
 
 </svg>
