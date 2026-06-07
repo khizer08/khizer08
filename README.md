@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=khizer08&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&cache_seconds=1" />
+  <img src="https://raw.githubusercontent.com/khizer08/khizer08/main/trophy.svg" alt="GitHub Trophies" />
 </p>
 
 <h3 align="center">
