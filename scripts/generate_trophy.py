@@ -1,6 +1,17 @@
+python
 import requests
 
 USERNAME = "khizer08"
+
+# -----------------------------
+# Trophy Ranking Function
+# -----------------------------
+def trophies(value, low, medium):
+    if value > medium:
+        return "🏆🏆🏆"
+    elif value >= low:
+        return "🏆🏆"
+    return "🏆"
 
 # -----------------------------
 # Fetch GitHub Data
@@ -26,6 +37,16 @@ for repo in repos_data:
 streak = 108
 contributions = 1027
 active_days = 243
+
+# -----------------------------
+# Trophy Levels
+# -----------------------------
+stars_trophy = trophies(stars, 5, 15)
+repos_trophy = trophies(repos, 10, 20)
+followers_trophy = trophies(followers, 10, 25)
+streak_trophy = trophies(streak, 30, 100)
+contrib_trophy = trophies(contributions, 500, 1000)
+days_trophy = trophies(active_days, 100, 200)
 
 # -----------------------------
 # SVG
@@ -70,22 +91,22 @@ svg = f"""
     font-family:Arial;
 }}
 
-.icon {{
-    font-size:42px;
+.trophy {{
+    fill:#fbbf24;
+    font-size:22px;
+    font-family:Arial;
+    font-weight:bold;
 }}
 </style>
 
-<!-- Background -->
 <rect width="1200" height="320" class="bg"/>
 
-<!-- Outer Border -->
 <rect x="10" y="10"
       width="1180"
       height="300"
       rx="20"
       class="outer"/>
 
-<!-- Title Lines -->
 <line x1="170" y1="50"
       x2="350" y2="50"
       stroke="#bb9af7"
@@ -96,7 +117,6 @@ svg = f"""
       stroke="#bb9af7"
       stroke-width="2"/>
 
-<!-- Trophy -->
 <text x="600"
       y="58"
       text-anchor="middle"
@@ -104,39 +124,39 @@ svg = f"""
 🏆 GitHub Trophies
 </text>
 
-<!-- Card 1 -->
+<!-- Stars -->
 <rect x="30" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="115" y="140" text-anchor="middle" class="icon">⭐</text>
+<text x="115" y="130" text-anchor="middle" class="trophy">{stars_trophy}</text>
 <text x="115" y="200" text-anchor="middle" class="value">{stars}</text>
 <text x="115" y="235" text-anchor="middle" class="label">Stars</text>
 
-<!-- Card 2 -->
+<!-- Repositories -->
 <rect x="220" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="305" y="140" text-anchor="middle" class="icon">🚀</text>
+<text x="305" y="130" text-anchor="middle" class="trophy">{repos_trophy}</text>
 <text x="305" y="200" text-anchor="middle" class="value">{repos}</text>
 <text x="305" y="235" text-anchor="middle" class="label">Repositories</text>
 
-<!-- Card 3 -->
+<!-- Followers -->
 <rect x="410" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="495" y="140" text-anchor="middle" class="icon">👥</text>
+<text x="495" y="130" text-anchor="middle" class="trophy">{followers_trophy}</text>
 <text x="495" y="200" text-anchor="middle" class="value">{followers}</text>
 <text x="495" y="235" text-anchor="middle" class="label">Followers</text>
 
-<!-- Card 4 -->
+<!-- Streak -->
 <rect x="600" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="685" y="140" text-anchor="middle" class="icon">🔥</text>
+<text x="685" y="130" text-anchor="middle" class="trophy">{streak_trophy}</text>
 <text x="685" y="200" text-anchor="middle" class="value">{streak}</text>
 <text x="685" y="235" text-anchor="middle" class="label">Streak</text>
 
-<!-- Card 5 -->
+<!-- Contributions -->
 <rect x="790" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="875" y="140" text-anchor="middle" class="icon">📈</text>
+<text x="875" y="130" text-anchor="middle" class="trophy">{contrib_trophy}</text>
 <text x="875" y="200" text-anchor="middle" class="value">{contributions}</text>
 <text x="875" y="235" text-anchor="middle" class="label">Contributions</text>
 
-<!-- Card 6 -->
+<!-- Active Days -->
 <rect x="980" y="90" width="170" height="180" rx="15" class="card"/>
-<text x="1065" y="140" text-anchor="middle" class="icon">📅</text>
+<text x="1065" y="130" text-anchor="middle" class="trophy">{days_trophy}</text>
 <text x="1065" y="200" text-anchor="middle" class="value">{active_days}</text>
 <text x="1065" y="235" text-anchor="middle" class="label">Active Days</text>
 
