@@ -1,0 +1,35 @@
+permissions:
+  contents: write
+
+name: Update GitHub Trophies
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  trophy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download Trophy SVG
+        run: |
+          curl -L \
+            --retry 5 \
+            --retry-delay 5 \
+            -H "Accept: image/svg+xml" \
+            -H "User-Agent: GitHub-Actions" \
+            "https://github-profile-trophy.vercel.app/?username=khizer08&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" \
+            -o trophy.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add trophy.svg
+          git commit -m "Update trophies" || exit 0
+          git push
