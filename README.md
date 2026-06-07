@@ -1,6 +1,5 @@
 # 💫 About Me
 
-
 <h1 align="center">👋 Hi, I'm <strong>Syed Khizer</strong></h1>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=khizer08&label=Profile%20views&color=0e75b6&style=flat)
@@ -14,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/khizer08/khizer08/main/trophy.svg" alt="GitHub Trophies" />
+  <img src="https://raw.githubusercontent.com/khizer08/khizer08/main/trophy.svg" />
 </p>
 
 <h3 align="center">
@@ -33,11 +32,10 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syedkhizer08/)
 
-
 ## 💻 Tech Stack
 
 **Languages & Core**
-  
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
