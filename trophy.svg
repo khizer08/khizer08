@@ -83,7 +83,7 @@ GitHub Achievements
 <!-- Repositories -->
 <rect x="220" y="90" width="170" height="180" rx="15" class="card"/>
 <text x="305" y="130" text-anchor="middle" class="rank">★</text>
-<text x="305" y="195" text-anchor="middle" class="value">23</text>
+<text x="305" y="195" text-anchor="middle" class="value">22</text>
 <text x="305" y="235" text-anchor="middle" class="label">Repositories</text>
 
 <!-- Followers -->
