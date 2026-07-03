@@ -12,9 +12,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00C4FF&center=true&vCenter=true&width=750&lines=Full-Stack+Web+Developer;ML+and+Data+Science+Enthusiast;Building+Scalable+Web+Products" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/khizer08/khizer08/main/trophy.svg" />
-</p>
+</p> -->
 
 <h3 align="center">
 🎓 Engineering Student | 💻 Full-Stack Developer | 🤖 ML Enthusiast  
