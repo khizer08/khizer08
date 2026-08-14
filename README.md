@@ -78,15 +78,15 @@ I’m passionate about **building scalable web applications**, exploring **Machi
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=khizer08&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="./profile/stats.svg" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=khizer08&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/khizer08/khizer08/main/streak.svg" alt="GitHub Streak" />
+  <img src="./streak.svg" alt="GitHub Streak" />
 </p>
 
 <p align="center">
