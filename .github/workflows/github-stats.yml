@@ -32,12 +32,22 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GRS_TOKEN }}
 
+      - name: Install SVG converter
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y librsvg2-bin
+
+      - name: Convert SVG to PNG
+        run: |
+          rsvg-convert -w 467 -h 195 profile/stats.svg -o profile/stats.png
+          rsvg-convert -w 300 -h 165 profile/top-langs.svg -o profile/top-langs.png
+
       - name: Commit generated cards
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add profile/*.svg
+          git add profile/*.svg profile/*.png
 
           git commit -m "Update GitHub stats" || exit 0
 
